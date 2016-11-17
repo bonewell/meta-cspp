@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 include recipes-core/images/core-image-minimal.bb
 
-IMAGE_INSTALL += "capicxx-core-runtime"
+IMAGE_INSTALL_append = " capicxx-core-runtime"
 
 IMAGE_FEATURES += "package-management"
 

@@ -1,9 +1,6 @@
 This README file contains information on the contents of the
 cspp layer.
 
-Please see the corresponding sections below for details.
-
-
 Dependencies
 ============
 
@@ -21,6 +18,7 @@ Table of Contents
 =================
 
   I. Adding the cspp layer to your build
+  II. Adding the cspp image to your build
 
 
 I. Adding the cspp layer to your build
@@ -41,3 +39,9 @@ other layers needed. e.g.:
     /path/to/yocto/meta-cspp \
     "
 
+II. Adding the cspp image to your build
+=================================================
+
+In order to build image with this layer, you need to choose DISTRO in local.conf file
+
+DISTRO = "cspp"
