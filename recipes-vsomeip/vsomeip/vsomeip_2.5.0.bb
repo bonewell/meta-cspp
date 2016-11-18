@@ -19,5 +19,3 @@ CXXFLAGS := "${@oe_filter_out('-fvisibility-inlines-hidden', '${CXXFLAGS}', d)}"
 PACKAGES_remove += "${PN}-bin"
 FILES_${PN} += "${bindir}/vsomeipd"
 FILES_${PN}-dev += "${libdir}/cmake"
-
-BBCLASSEXTEND = "nativesdk"
