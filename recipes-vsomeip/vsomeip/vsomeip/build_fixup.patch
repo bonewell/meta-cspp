@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 1b0fd39..ddbdfe2 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -239,7 +239,7 @@ install (
+ )
+ 
+ install (
+-  FILES ${EXAMPLE_CONFIG_FILES} DESTINATION etc/vsomeip COMPONENT config
++  FILES ${EXAMPLE_CONFIG_FILES} DESTINATION /etc/vsomeip COMPONENT config
+ )
+ 
+ # Add all targets to the build-tree export set

@@ -13,6 +13,10 @@ This layer depends on:
   layers: meta
   branch: master
 
+  URI: git://git.openembedded.org/meta-openembedded
+  layers: meta-oe
+  branch: master
+
 
 Table of Contents
 =================
@@ -36,6 +40,7 @@ other layers needed. e.g.:
     /path/to/yocto/meta \
     /path/to/yocto/meta-poky \
     /path/to/yocto/meta-yocto-bsp \
+    /path/to/meta-openembedded/meta-oe \
     /path/to/yocto/meta-cspp \
     "
 
