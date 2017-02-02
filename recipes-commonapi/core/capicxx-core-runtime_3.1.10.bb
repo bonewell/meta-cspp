@@ -5,8 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=815ca599c9df247a0c7f619bab123dad"
 
 inherit cmake lib_package pkgconfig
 
-SRCREV = "a4c5fed7760238b2ef0e3b204801fed088c99fa7"
-
+SRCREV = "436750026fb1a27944584513c7191d1bc83e9f0d"
 SRC_URI = "git://github.com/GENIVI/capicxx-core-runtime.git;protocol=https"
 
 S = "${WORKDIR}/git"

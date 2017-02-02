@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=815ca599c9df247a0c7f619bab123dad"
 
 DEPENDS = "boost capicxx-core-runtime vsomeip"
 
-SRCREV = "e21e8f37195b3d37faf1d179d182dd3b87e826f0"
+SRCREV = "fba300794f528c7b0e485d05c17f869cbdf0cc29"
 SRC_URI = "git://github.com/GENIVI/capicxx-someip-runtime.git;protocol=https"
 
 S = "${WORKDIR}/git"
